@@ -1,0 +1,1 @@
+export let urlAPI = "https://pemrog3-ulbi.herokuapp.com/all-nilai";
