@@ -21,5 +21,5 @@ function isiRow(value) {
       .replace('#THAJARAN#', value.tahun_ajaran)
       .replace('#WARNA#', getRandomColor())
       .replace(/#WARNALOGO#/g, getRandomColorName());
-    addInner('iniTabel', content);
+    addInner("iniTabel", content);
 }
