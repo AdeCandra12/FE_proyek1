@@ -14,9 +14,8 @@ function isiRow(value) {
       .replace('#SKS#', value.presensi.nama_mk ? value.presensi.nama_mk.sks : '#SKS#')
       .replace('#DOSEN#', value.presensi.nama_mk ? value.presensi.nama_mk.dosen_pengampu : '#DOSEN#')
       .replace('#EMAILDOSEN#', value.presensi.nama_mk ? value.presensi.nama_mk.email : '#EMAILDOSEN#')
-      .replace('#NAKHIR#', value.nilai_akhir ? value.nilai_akhir : '#NAKHIR#')
-      .replace('#GRADE#', value.grade ? value.grade : '#GRADE#')
-      .replace('#EMAIL#', value.dosen ? value.dosen.email : '#EMAIL#')
+      .replace('#NAKHIR#', value.nilai_akhir)
+      .replace('#GRADE#', value.grade)
       .replace('#THAJARAN#', value.tahun_ajaran)
       .replace('#WARNA#', getRandomColor())
       .replace(/#WARNALOGO#/g, getRandomColorName());
