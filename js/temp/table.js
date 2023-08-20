@@ -14,7 +14,7 @@ export let isiTabel =
       </div>
     </div>
   </th>
-  <th class="whitespace-nowrap px-4 bg-white text-center">
+  <th class="whitespace-nowrap px-4 bg-white text-left">
     <div class="flex items-center -m-2">
       <div class="w-auto p-2">
       </div>
@@ -25,7 +25,7 @@ export let isiTabel =
         <p class="text-xs font-medium text-coolGray-500">#EMAILDOSEN#</p>
       </div>
     </div>
-    <th class="whitespace-nowrap px-4 bg-white text-center">
+    <th class="whitespace-nowrap px-4 bg-white text-left">
     <div class="flex items-center -m-2">
       <div class="w-auto p-2">
       </div>
