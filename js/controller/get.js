@@ -17,7 +17,7 @@ function isiRow(value) {
       .replace('#NAKHIR#', value.nilai_akhir ? value.nilai_akhir : '#NAKHIR#')
       .replace('#GRADE#', value.grade ? value.grade : '#GRADE#')
       .replace('#EMAIL#', value.dosen ? value.dosen.email : '#EMAIL#')
-      .replace('#TAJARAN#', value.tahun_ajaran)
+      .replace('#THAJARAN#', value.tahun_ajaran)
       .replace('#WARNA#', getRandomColor())
       .replace(/#WARNALOGO#/g, getRandomColorName());
     addInner('isiTabelNilai', content);
