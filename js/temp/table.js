@@ -14,7 +14,7 @@ export let isiTabel =
       </div>
     </div>
   </th>
-  <th class="whitespace-nowrap px-4 bg-white text-left">
+  <th class="whitespace-nowrap px-4 bg-white text-center">
     <div class="flex items-center -m-2">
       <div class="w-auto p-2">
       </div>
@@ -25,7 +25,7 @@ export let isiTabel =
         <p class="text-xs font-medium text-coolGray-500">#EMAILDOSEN#</p>
       </div>
     </div>
-    <th class="whitespace-nowrap px-4 bg-white text-left">
+    <th class="whitespace-nowrap px-4 bg-white text-center">
     <div class="flex items-center -m-2">
       <div class="w-auto p-2">
       </div>
@@ -38,7 +38,7 @@ export let isiTabel =
   </th>
   <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-800 text-left">
     #NAKHIR#</th>
-  <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-800 text-center">
+  <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-800 text-left">
     #GRADE#</th>
   <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-800 text-center">
     #THAJARAN#</th>
