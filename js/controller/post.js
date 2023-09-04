@@ -17,7 +17,7 @@ function pushDataNilai() {
     presensi: {
         nama_mk: {
             nama_matkul: getValue('nama_matkul'),
-            sks: parseInt(getValue('sks')),
+            sks: getValue('sks'),
             dosen_pengampu: getValue('dosen_pengampu'),
             email: getValue('email_dosen'),
         },
@@ -31,4 +31,4 @@ function pushDataNilai() {
   postData(urlPOST, data, AmbilResponse);
 }
 
-onClick("button", pushDataNilai);
+onClick('button', pushDataNilai);
