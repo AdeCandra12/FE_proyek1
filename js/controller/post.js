@@ -3,10 +3,10 @@ import { onClick, getValue } from 'https://bukulapak.github.io/element/process.j
 import { urlPOST, AmbilResponse } from '../config/url_post-nilai.js';
 
 function pushDataNilai() {
-  if (getValue('nama_mhs') == '' || getValue('nama_matkul') == '' || getValue('nilai_akhir') == '' || getValue('grade') == '' || getValue('tahun_ajaran') == ''){
-    alert('data gaboleh kosong!!!')
-    return
-  }
+//   if (getValue('nama_mhs') == '' || getValue('nama_matkul') == '' || getValue('nilai_akhir') == '' || getValue('grade') == '' || getValue('tahun_ajaran') == ''){
+//     alert('data gaboleh kosong!!!')
+//     return
+//   }
   let data = {
       npm_ms: {
         nama_mhs: getValue('nama_mhs'),
