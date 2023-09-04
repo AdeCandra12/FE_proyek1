@@ -9,26 +9,26 @@ function pushDataNilai() {
 //   }
   let data = {
       npm_ms: {
-        nama_mhs: getValue('nama_mhs'),
-        npm: getValue('npm'),
-        jurusan: getValue('jurusan'),
-        email: getValue('email'),
+        nama_mhs: getValue("nama_mhs"),
+        npm: getValue("npm"),
+        jurusan: getValue("jurusan"),
+        email: getValue("email"),
       },
     presensi: {
         nama_mk: {
-            nama_matkul: getValue('nama_matkul'),
-            sks: getValue('sks'),
-            dosen_pengampu: getValue('dosen_pengampu'),
-            email: getValue('email_dosen'),
+            nama_matkul: getValue("nama_matkul"),
+            sks: getValue("sks"),
+            dosen_pengampu: getValue("dosen_pengampu"),
+            email: getValue("email_dosen"),
         },
-        tanggal: getValue('tanggal'),
-        checkin: getValue('checkin'),
+        tanggal: getValue("tanggal"),
+        checkin: getValue("checkin"),
     },
-    nilai_akhir: getValue('nilai_akhir'),
-    grade: getValue('grade'),
-    tahun_ajaran: getValue('tahun_ajaran'),
+    nilai_akhir: getValue("nilai_akhir"),
+    grade: getValue("grade"),
+    tahun_ajaran: getValue("tahun_ajaran"),
   };
   postData(urlPOST, data, AmbilResponse);
 }
 
-onClick('button', pushDataNilai);
+onClick("button", pushDataNilai);
