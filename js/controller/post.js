@@ -31,4 +31,4 @@ function pushDataNilai() {
   postData(urlPOST, data, AmbilResponse);
 }
 
-onClick('button', pushDataNilai);
+onClick("button", pushDataNilai);
