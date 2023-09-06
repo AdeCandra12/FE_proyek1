@@ -19,6 +19,8 @@ function isiRow(value) {
       .replace('#NAKHIR#', value.nilai_akhir)
       .replace('#GRADE#', value.grade)
       .replace('#THAJARAN#', value.tahun_ajaran)
+      .replace('#IDEDIT#', value._id)
+      .replace('#IDDELETE#', value._id)
       .replace('#WARNA#', getRandomColor())
       .replace(/#WARNALOGO#/g, getRandomColorName());
     addInner("iniTabel", content);
