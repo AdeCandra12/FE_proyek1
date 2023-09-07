@@ -1,6 +1,6 @@
-import { postData } from 'https://bukulapak.github.io/api/process.js';
+import { putData } from 'https://bukulapak.github.io/api/process.js';
 import { onClick, getValue } from 'https://bukulapak.github.io/element/process.js';
-import { urlPOST, AmbilResponse } from '../config/url_post-nilai.js';
+import { urlPUT, AmbilResponse } from '../config/url_put-nilai.js';
 
 function pushData() {
 //   if (getValue('nama_mhs') == '' || getValue('nama_matkul') == '' || getValue('nilai_akhir') == '' || getValue('grade') == '' || getValue('tahun_ajaran') == ''){
@@ -28,7 +28,7 @@ function pushData() {
     grade: getValue("grade"),
     tahun_ajaran: getValue("tahun_ajaran"),
   };
-  postData(urlPOST, data, AmbilResponse);
+  putData(urlPUT, data, AmbilResponse);
 }
 
 onClick("button", pushData);
