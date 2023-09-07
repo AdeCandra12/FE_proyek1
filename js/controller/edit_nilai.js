@@ -7,7 +7,7 @@ export function isiDataNilai(results) {
       { id: 'nama_matkul', path: 'presensi.nama_mk.nama_matkul' }, 
       { id: 'sks', path: 'presensi.nama_mk.sks' },
       { id: 'dosen_pengampu', path: 'presensi.nama_mk.dosen_pengampu' },
-      { id: 'email', path: 'presensi.nama_mk.email' },
+      { id: 'email_dosen', path: 'presensi.nama_mk.email' },
       { id: 'tanggal', path: 'presensi.tanggal' },
       { id: 'checkin', path: 'presensi.checkin' },
       { id: 'nilai_akhir', path: 'nilai_akhir' },
