@@ -1,7 +1,7 @@
 const urlParams = new URLSearchParams(window.location.search);
 const nilaiId = urlParams.get('nilaiId');
 
-export let urlPUT = "https://pemrog3-ulbi.herokuapp.com/updnilai/" + nilaiId;
+export let urlPUT = "https://pemrog3-ulbi.herokuapp.com/upd-nilai/" + nilaiId;
 
 export function AmbilResponse(result) {
   console.log(result); // menampilkan response API pada console
