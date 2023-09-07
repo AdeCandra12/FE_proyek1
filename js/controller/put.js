@@ -1,6 +1,6 @@
 import { putData } from 'https://bukulapak.github.io/api/process.js';
 import { onClick, getValue } from 'https://bukulapak.github.io/element/process.js';
-import { urlPUT, AmbilResponse } from '../config/url_put-nilai.js';
+import { urlPUT, AmbilResponse } from '../config/url_put_nilai';
 
 function pushData() {
 //   if (getValue('nama_mhs') == '' || getValue('nama_matkul') == '' || getValue('nilai_akhir') == '' || getValue('grade') == '' || getValue('tahun_ajaran') == ''){
